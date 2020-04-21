@@ -134,7 +134,12 @@
         </plugins>
       </build>
       <properties>
-        <quarkus.package.type>native</quarkus.package.type>
+          <quarkus.package.type>native</quarkus.package.type>
+          <sonar.projectKey>andressarfn_demo-quarkus2</sonar.projectKey>
+          <sonar.organization>andressarfn</sonar.organization>
+          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+          <sonar.login>24cc365ba9d96bcf4b309fede0300daedf5dbc95</sonar.login>
+
       </properties>
     </profile>
   </profiles>
