@@ -6,6 +6,10 @@
   <artifactId>demo-quarkus</artifactId>
   <version>0.5.0-SNAPSHOT</version>
   <properties>
+    <sonar.projectKey>andressarfn_demo-quarkus2</sonar.projectKey>
+    <sonar.organization>andressarfn</sonar.organization>
+    <sonar.host.url>https://sonarcloud.io</sonar.host.url>
+    <sonar.login>0d54be6daa0e357b618a9227a16baed289ef13b9</sonar.login>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
     <maven.compiler.parameters>true</maven.compiler.parameters>
     <surefire-plugin.version>2.22.0</surefire-plugin.version>
@@ -133,13 +137,6 @@
           </plugin>
         </plugins>
       </build>
-      <properties>
-          <quarkus.package.type>native</quarkus.package.type>
-          <sonar.projectKey>andressarfn_demo-quarkus2</sonar.projectKey>
-          <sonar.organization>andressarfn</sonar.organization>
-          <sonar.host.url>https://sonarcloud.io</sonar.host.url>
-          <sonar.login>24cc365ba9d96bcf4b309fede0300daedf5dbc95</sonar.login>
-      </properties>
     </profile>
   </profiles>
 </project>
