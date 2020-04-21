@@ -139,7 +139,6 @@
           <sonar.organization>andressarfn</sonar.organization>
           <sonar.host.url>https://sonarcloud.io</sonar.host.url>
           <sonar.login>24cc365ba9d96bcf4b309fede0300daedf5dbc95</sonar.login>
-
       </properties>
     </profile>
   </profiles>
